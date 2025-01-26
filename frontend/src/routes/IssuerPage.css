@@ -1,0 +1,48 @@
+.issuer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('..\\resources\\issuer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.issuer-container input,
+.issuer-container textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.issuer-container .image-preview {
+    margin-top: 10px;
+    width: max-content;
+    height: max-content;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.issuer-container button {
+    padding: 10px;
+    width: 420px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.issuer-container button:hover {
+    background-color: #0056b3;
+}

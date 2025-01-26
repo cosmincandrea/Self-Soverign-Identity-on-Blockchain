@@ -1,0 +1,21 @@
+.home-container {
+    text-align: center;
+    background-image: url('..\\resources\\home_final.jpg'); /* Path to your background image in the public folder */
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+}
+
+  
+  .home-content {
+    /*background: rgba(0, 0, 0, 0.5); /* Adding a slight background to enhance text readability */    
+    margin: auto;
+  }
+  
+  

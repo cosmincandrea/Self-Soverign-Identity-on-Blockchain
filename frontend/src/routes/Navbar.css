@@ -1,0 +1,20 @@
+.Navbar {
+    background-color: #282c34;
+    padding: 1em;
+  }
+  
+  .Navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Navbar li {
+    display: inline;
+    margin: 0 1em;
+  }
+  
+  .Navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
